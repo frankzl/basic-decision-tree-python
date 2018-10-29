@@ -1,8 +1,3 @@
-```python
-%load_ext autoreload
-%autoreload 2
-```
-
 ## Load data
 
 ```python
@@ -64,9 +59,6 @@ $x_{b,1} \leq 6.9 ? => True$
 $\hat{y}_b = 2$ and $p(c=\hat{y}_b | x_b, T) \approx 0.67$
 
 ```python
-d.predict([4.1,-0.1,2.2])
-```
-
-```python
-d.predict([6.1,0.4,1.3])
+print(d.predict([4.1,-0.1,2.2]))
+print(d.predict([6.1,0.4,1.3]))
 ```
